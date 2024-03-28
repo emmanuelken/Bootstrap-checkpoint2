@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+}
+
+.emailform input {
+    border: 5px white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+
+
+
+
+@media (min-width: 576px) {
+    h3 {
+    font-size: 35px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .card-title {
+        font-size: 8px;
+    }
+    .card-text {
+        font-size: 7px;
+    }
+    #shop {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 576px) {
+    .card-title {
+        font-size: 15px;
+    }
+    .card-text {
+        font-size: 12px;
+    }
+    #shop {
+        font-size: 9px;
+    }
+}
+@media (min-width: 768px) {
+    .card-title {
+        font-size: 20px;
+    }
+    .card-text {
+        font-size: 15px;
+    }
+    #shop {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    #us {
+        font-size: 12px;
+    }
+    
+}
+@media (max-width: 767.98px) {
+    #us {
+        margin: 2px;
+    }
+    
+}
+
+
+
